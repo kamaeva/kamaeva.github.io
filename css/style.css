@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f7f6f7 url(../img/background.jpg);
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	width:1170px;
+	margin: 0px auto;/*выравнивает по центру*/
+
+}
+/*-------------------------------------------------------Header--------------------------------------------------------------------*/
+header{
+	background: #25335a;
+	padding-top: 20px;
+	color:#fff;
+}
+
+header h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+header h1 span{
+	font-family: 'Tangerine', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+
+}
+header .header-contacts{
+	background: #263252;
+	padding: 10px 0 10px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+header .header-contacts .contact{
+	margin: 0 15px;
+	color: #9b1350;
+	font-weight: 700;
+	font-size: 20px;
+}
+/*----------------------------------------Content--------------------------------------------------------------------*/
+.content{
+	background: #f7f6f7;
+	padding: 25px 15px;
+	color: #1a2546;
+}
+.content h3{
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-left: 55px;
+}
+.content .pageTitle{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.landingPages{
+	display: flex;
+	justify-content: space-around;
+}
+.simplePages{
+	display: flex;
+	justify-content: space-around;
+}
+.simplePages li a img{
+	width: 250px;
+}
+.content .simplePages{
+	margin-bottom: 20px;
+}
+.content .picture:hover{
+	box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
+/*----------------------------------------Footer--------------------------------------------------------------------*/
+footer{
+	background: #25335a;
+	color:#fff;
+	padding: 20px 0;
+}
+footer .container{
+	display: flex;
+	justify-content: flex-end;
+}
+/*footer .container .contacts{
+	line-height: 1.5;
+}*/
+footer .email, footer .phone{
+	margin-right: 15px;
+	color:#fff;
+}
+
