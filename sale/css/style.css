@@ -190,7 +190,7 @@ header .bottom-section{
 	display: inline;
 	margin-right: 30px;
 }
-.content .titles  li span{
+.titles  .number{
 	font-size: 12px;
 }
 .content .titles .red-list li a{
@@ -293,14 +293,14 @@ header .bottom-section{
 .content .side-bar form{
 	position: relative;
 }
-.content .side-bar form .email{
+.content .side-bar .email{
 	box-sizing: border-box;
 	padding: 15px;
 	border-radius: 3px;
 	border: 1px solid #c0c0c0;
 	width: 280px;
 }
-.content .side-bar form .envelope{
+.content .side-bar .envelope{
 	position: absolute;
 	left:278px;
 	color:#fff;
@@ -326,12 +326,12 @@ header .bottom-section{
 .content .side-bar .social-items a.btn-red{
 	font-weight: 700;
 }
-.content .side-bar .social-items .social-icon{
+.content .side-bar .social-icon{
 	color:#b93d63;
 	font-size: 24px;
 	margin-bottom: 0px;
 }
-.content .side-bar .social-items .followers-amount{
+.content .side-bar .followers-amount{
 	font-size: 13px;
 }
 
@@ -547,10 +547,14 @@ footer .tab-wrap .tab-content .orderCall{
   	}
   	.hamburger2{
 		display: block;
+		margin-top: -20px;
   	}
-  	.red-list{
+  	.content .titles .red-list{
 		display: none;
 		margin-top: 20px;
+  	}
+  	.red-list .number{
+		display: none;
   	}
   	.red-list li{
 		display: block;
@@ -559,6 +563,10 @@ footer .tab-wrap .tab-content .orderCall{
 		line-height: 2.5;
 		font-size: 22px;
   	}
+   .red-list li a{
+   	display: block;
+   	width: 100%;
+   }
   	.content h1{
   		font-size: 30px;
   	}
@@ -633,16 +641,14 @@ footer .tab-wrap .tab-content .orderCall{
 	}
 	.content .titles p{
 		vertical-align: top;
+		font-size: 28px;
 	}
 }
 @media only screen and (max-width: 480px){
 	.content .wrap{
 		flex-direction:column;
+		padding-l: 30%;
 	}
-	/*
-	.content .posts{
-		margin: 0 auto;
-	}*/
 	header .bottom-section{
 		font-size: 26px;
 	}
@@ -662,8 +668,57 @@ footer .tab-wrap .tab-content .orderCall{
 		font-size: 32px;
 	}
 
-	.side-bar{
-		flex-grow:2;
+	
+	.content .posts{
+		margin-left: 18%;
 	}
-
+	.content .post .img-text h2{
+		font-size: 36px;
+	}
+	.content .post .img-text p{
+		font-size: 28px;
+		max-height: 90px;
+		overflow: hidden;
+	}
+	.content .side-bar{
+		width: 100%;
+		text-align: center;
+	}
+	.content .side-bar .social-items .social-item{
+		margin-right: 180px;
+	}
+	.content .side-bar h2{
+		font-size: 30px;
+	}
+	.content .side-bar p{
+		font-size: 26px;
+	}
+	.content .side-bar h3{
+		font-size: 28px;
+	}
+	.content .side-bar .email{
+		font-size: 26px;
+	}
+	.content .side-bar .envelope{
+		padding: 22px;
+		left: 370px;
+	}
+	.content .side-bar .social-icon{
+		font-size: 50px;
+	}
+	.content .side-bar .followers-amount{
+		font-size: 22px;
+	}
+	.footer-content .phone{
+		font-size: 28px;
+	}
+	.footer-content .order{
+		font-size: 24px;
+	}
+	.footer-content .address{
+		font-size: 24px;
+	}
+	.footer-content .contacts .complaint{
+		font-size: 22px;
+	}
 }
