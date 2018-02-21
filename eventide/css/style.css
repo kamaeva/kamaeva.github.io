@@ -1,0 +1,355 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	color:#828689;
+	background: #fff;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 31px;
+	color:#fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+}
+section{
+	position: relative;
+}
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #2cc7c1;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+}
+.btn-primary{
+	background-color: #7ea4e8;
+}
+.btn-default{
+	background-color: #6a7079;
+}
+.btn-primary:hover{
+	background-color: #7ea4e8;
+}
+.section-tabs{
+	border: 3px solid #ececec;
+	border-radius: 2px;
+
+}
+.section-tabs .nav-tabs li:not(.active){
+	background: #ececec;
+}
+.section-tabs .nav-tabs.nav-justified li a,.section-tabs .nav-tabs.nav-justified li.active a,
+.section-tabs .nav-tabs.nav-justified li.active:focus,.section-tabs .nav-tabs.nav-justified li.active:hover{
+	font-family: 'Ubuntu', sans-serif;
+	border:none;
+	border-radius: 0px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.section-tabs .nav-tabs li a{
+	color:#abb1ba;
+}
+.section-tabs .tab-content{
+	padding: 25px 20px;
+}
+.large{
+	font-size: 22px;
+	margin-bottom: 28px;
+}
+
+.clearfix:after{
+	clear:both;
+	content: "";
+	display: table;
+}
+
+/*************************************************************************TOP_MENU*************************************************************************************************************/
+#header{
+	background: url(../img/background.jpg) center no-repeat;
+	background-size:cover;
+	height: 100vh;
+}
+.section-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+
+}
+.section-row{
+	display: table-row;
+}
+
+.section-cell{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.section-center{
+	display: inline-block;
+	max-width: 600px;
+}
+
+#header p{
+	font-size: 20px;
+	color:#fff;
+}
+
+#speakers{
+	padding: 105px 0;
+	border-bottom: 8px solid #f0f0f1;
+
+}
+#speakers h3{
+	margin-bottom: 25px;
+}
+
+#speakers p{
+	font-size: 17px;
+}
+
+#speakers .section-tabs .tab-content ul li{
+	line-height: 30px;
+}
+
+#speakers .section-tabs .tab-content ul li i{
+	font-size: 15px;
+	color:#2cc7c1;
+	margin-right: 14px;
+}
+#speakers .speakers-head{
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+#speakers .speakers-head h3{
+	color: #6a7079;
+}
+
+#speakers .front{
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	cursor: pointer;
+}
+#speakers .back{
+	display: inline-block;
+	background: #6bd8d3;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%; 
+}
+
+#speakers .item >div:hover .front{
+	opacity: .2;
+}
+#speakers .item >div:hover h4{
+	color:#6bd8d3;
+}
+#speakers .back i{
+	line-height: 140px;
+	font-size: 30px;
+	color:#fff;
+}
+#events{
+	padding: 105px 0;
+}
+
+#events h3{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#events .link{
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#events .time{
+	font-size: 17px;
+	background: #2cc7c1;
+	color: #fff;
+	border-radius: 2px;
+	padding: 3px 5px;
+	font-weight: 500;
+	margin-right: 25px;
+}
+#events .collapse-link{
+	color:#747a84;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: none;
+}
+
+#events .collapse-state{
+	color:#2cc7c1;
+}
+#events .collapse p{
+	font-size: 18px;
+	color:#999;
+}
+#events .tab-collapse{
+	margin-bottom: 20px;
+}
+#events .row-item{
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+#events .col-right{
+	padding-left: 95px;
+}
+#events .carousel-indicators{
+	left: 0px;
+	margin: 0px;
+	width: auto;
+	bottom: 10px;
+	margin-left: 20px;
+}
+#events .carousel-indicators li.active{
+	background: #2cc7c1;
+	width: 14px;
+	height: 14px;
+}
+#events .carousel-indicators li{
+	margin: 0px;
+	background: #fff;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #2cc7c1;
+}
+
+#form{
+	padding: 140px 0;
+	background: #f3f3f3;
+}
+#form h3{
+	margin-bottom: 20px;
+}
+
+#form .section-form{
+	background: #fff;
+	padding: 50px;
+	border-radius: 2px;
+	margin-top: 50px;
+}
+
+#form .section-form input,#form .section-form select{
+	font-size: 18px;
+	background: #efefef;
+	padding-right: 25px;
+	height: 44px;
+}
+#form .has-success .form-control-feedback{
+	color:#2cc7c1;
+	
+}
+#form .has-success .form-control, .section-form input.form-control:focus{
+	border: 2px solid #95e3e0;
+	background: #fff;
+	box-shadow: none;
+}
+
+#form .form-control-feedback{
+	line-height: 44px;
+	right: 15px;
+}
+
+#form .select2-container--default .select2-selection--single{
+	height: 44px;
+	text-align: left;
+	background: #efefef;
+}
+
+#form .select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height: 44px;
+	color: #bebebe;
+}
+#form .select2-container--open .select2-selection--single{
+	background: #2cc7c1;	
+}
+#form .select2-container--open .select2-selection--single .select2-selection__rendered{
+	color: #fff;
+}
+#form .select2-container--default .select2-selection--single .select2-selection__arrow{
+	top:10px;
+}
+li.select2-results__option:first-child{
+	display: none;
+}
+.select2-results__option{
+	color: #2cc7c1;
+}
+.select2-results__options,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option[aria-selected="true"]{
+	background: #525b64;
+}
+
+#sponsors{
+	background: #fff;
+	text-align: center;
+	padding: 70px 0;
+}
+
+#contacts{
+	background: #525b64;
+	padding-top: 95px;
+	padding-bottom: 85px;
+}
+#contacts h2{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#copy{
+	background: #3f464c;
+	padding: 15px 0;
+}
+@media only screen and (max-width: 992px){
+	#sponsors{
+		padding: 20px 0;
+	}
+	#sponsors img{
+	margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	#speakers,#events,#form,#contacts,{
+		padding: 20px 0;
+	}
+	#speakers .speakers-head{
+		margin: 20px 0;
+	}
+	#events .col-right{
+		padding-left: 10px;
+	}
+}
