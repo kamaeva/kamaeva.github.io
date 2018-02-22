@@ -3,7 +3,7 @@
 	margin:0px;
 }
 body{
-	font-family: 'Helvetica', sans-serif;/*helvetica*/
+	font-family: 'Helvetica', sans-serif;
 	color:#000;
 	background: #fff;
 	font-size: 12px;
@@ -332,17 +332,51 @@ footer .footer-bg .navbar-footer ul li a{
 	}
 
 }
+@media only screen and (max-width: 950px){
+	.menu-carousel .carousel-indicators{
+		margin-bottom: 7%;
+	}
+	.menu-carousel .carousel-indicators li{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.carousel-inner{
+		height: 270px;
+	}
+}
 @media only screen and (max-width: 767px){
-	.hamburger {
-    	display: block;
- 	}
- 	.nav{
-    left: -200px;
-    background: #444;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 200px;
-    transition: .2s;
-  }
+	.content .products .product .product-img{
+		margin: 0 auto;
+		width: 44%;
+	}
+	.content .product{
+		text-align: center;
+	}
+	.carousel-inner{
+		height: 200px;
+	}
+	.menu-carousel .item{
+		height: 100%;
+		margin-top: 0px;
+	}
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+		height: 200px !important;
+	}
+	.navbar-default .navbar-toggle{
+		margin-top: -15px;
+	}
+	.navbar-collapse{
+		margin-top: 10px;
+	}
+	.menu .navbar-default .navbar-nav li{
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.menu .navbar-default .navbar-nav li:hover{
+		background: #e8e8e8;
+	}
+	.menu .navbar{
+		padding-bottom: 0;
+	}
 }
