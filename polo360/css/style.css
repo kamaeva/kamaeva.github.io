@@ -232,7 +232,7 @@ ul{
 .content .bottom-content input.message{
 	height: 135px;
 	vertical-align: top;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .content .bottom-content .news{
 	text-decoration: none;
@@ -302,7 +302,9 @@ footer .footer-bg .navbar-footer ul li a{
   height: 2px;
   background: #fff;
 }
-
+.content .bottom-content button.btn-subs{
+		margin-bottom: 10px;
+	}
 /*************************************************************************@MEDIA*************************************************************************************************************/
 
 @media only screen and (max-width: 1200px){
@@ -318,11 +320,9 @@ footer .footer-bg .navbar-footer ul li a{
 		overflow: hidden;
 	}
 	.content .bottom-content input.message{
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
-	.content .bottom-content button.btn-subs{
-		margin-top: 25px;
-	}
+	
 	
 	.content .products .product h4{
 		height: 20px;
@@ -330,9 +330,17 @@ footer .footer-bg .navbar-footer ul li a{
 	.menu .container,.menu-carousel .container{
 		width: 100%;
 	}
-
+	.content .bottom-content button.visit{
+		margin-bottom: 10px;
+	}
+	.content .bottom-content button.btn-subs{
+		margin-top: 40px;
+	}
+	.content .bottom-content button.send{
+		margin-bottom: 10px;
+	}
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 990px){
 	.menu-carousel .carousel-indicators{
 		margin-bottom: 7%;
 	}
@@ -342,6 +350,15 @@ footer .footer-bg .navbar-footer ul li a{
 	}
 	.carousel-inner{
 		height: 270px;
+	}
+	.content .bottom-content button.btn-subs{
+		margin-top: 50px;
+	}
+	.content .bottom-content button.send{
+		margin-bottom: 10px;
+	}
+	.content .bottom-content input.message{
+		margin-bottom: 80px;
 	}
 }
 @media only screen and (max-width: 767px){
@@ -378,5 +395,11 @@ footer .footer-bg .navbar-footer ul li a{
 	}
 	.menu .navbar{
 		padding-bottom: 0;
+	}
+	.content .bottom-content input.message{
+		margin-bottom: 10px;
+	}
+	.content .bottom-content button.btn-subs{
+		margin-top: 10px;
 	}
 }
