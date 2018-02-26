@@ -403,3 +403,9 @@ footer .footer-bg .navbar-footer ul li a{
 		margin-top: 10px;
 	}
 }
+@media only screen and (max-width: 767px){
+.navbar-default .navbar-brand{
+	width: 80%;
+	height: auto;
+}
+}
