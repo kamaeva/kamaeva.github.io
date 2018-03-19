@@ -7,6 +7,7 @@ body{
 }
 ul li{
 	list-style: none;
+	display: inline-block;
 }
 a{
 	text-decoration: none;
@@ -68,9 +69,13 @@ header .header-contacts .contact{
 	display: flex;
 	justify-content: space-around;
 }
-.simplePages{
+.simplePages,.sites{
 	display: flex;
 	justify-content: space-around;
+
+}
+.sites{
+	align-items: flex-start;
 }
 .simplePages li a img{
 	width: 250px;
